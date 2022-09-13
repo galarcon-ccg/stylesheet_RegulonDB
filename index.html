@@ -23,13 +23,89 @@
       src="https://www.dropbox.com/s/opzvt9e0598xcq6/regulonDB.png?dl=1"
       title="RegulonDB Logo"
     />
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="cover">
       <h1>
         RegulonDB-StyleSheet
       </h1>
+      Version 0.0.29
     </div>
-    <article></article>
+    <article>
+      <br />
+      <a href="styleSheet_regulonDB.css" download="styleSheet_regulonDB.css"
+        >Download Here!</a
+      >
+      <br />
+      <p>
+        This is a css for regulonDB Browser site, it contains the definition of
+        global styles titles, paragraphs, font, color palette among others.
+      </p>
+      <h2>Titles</h2>
+      <h1>Title H1, Arial 24</h1>
+      <h2>Title H2, Arial 20</h2>
+      <h3>Title H3, Arial 18</h3>
+      <h4>Title H4, Arial 16</h4>
+      <h2>Paragraph</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus
+        tellus. Phasellus imperdiet felis in fermentum gravida. Sed fringilla
+        ullamcorper elit, at imperdiet purus sagittis vitae…
+      </p>
+      <br />
+      <h2>Button</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Button Default</th>
+            <th>Button Accent</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <button>I'm a Button</button>
+              <br />
+              <p>Disabled Button</p>
+              <button disabled>I'm a Button</button>
+            </td>
+            <td>
+              <button class="accent">I'm a Button</button>
+              <br />
+              <p>Disabled Button</p>
+              <button class="accent" disabled>I'm a Button</button>
+              <p>use class=".accent"</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>DropDown</h2>
+      <div class="dropdown">
+        <button>Dropdown</button>
+        <div class="dropdown-content">
+          <button class="dropdown-button">Action 1</button>
+          <button class="dropdown-button">Action 2</button>
+        </div>
+      </div>
+      <br />
+      <h2>Icon Buttons</h2>
+      <p>
+        the design and resource of icons come from boxicons, more information
+        see <a href="https://boxicons.com/usage">BoxIcons</a>
+      </p>
+      <button class="iconButton">
+        <i class="bx bxs-like bx-flashing-hover"></i>
+      </button>
+      <button class="iconButton">
+        <i class="bx bxs-download bx-fade-down-hover"></i>
+      </button>
+      <br />
+      <br />
+    </article>
   </body>
 </html>
